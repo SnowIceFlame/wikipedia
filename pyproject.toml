@@ -13,6 +13,8 @@ dependencies = [
   "seaborn>=0.13",
   "nltk>=3.9",
   "requests>=2.32.5",
+  "apng>=0.3.4",
+  "pillow>=12.1.1",
 ]
 
 [build-system]

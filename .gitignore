@@ -24,3 +24,5 @@ htmlcov/
 *.egg-info/
 *.egg
 
+# Tool / agent directories
+.antigravitycli/

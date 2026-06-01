@@ -666,7 +666,7 @@ def main():
             ("as it grows", COLOR_TEXT_MUTED_RGBA, f_label_reg),
         ],
         700 * SCALE,
-        615 * SCALE,
+        622 * SCALE,
     )
 
     # --- "DAY X" LABELS INSIDE THE CIRCLE ---

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" height="680" viewBox="100 60 700 680" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="100" y="60" width="700" height="680" fill="#FFFFFF"/>
+
+  <!-- Central Circular Track -->
+  <circle cx="450" cy="510" r="200" fill="none" stroke="#2C3E50" stroke-width="24"/>
+
+  <!-- Daily Ticks and Progress Arrows -->
+  <defs>
+    <polygon id="arrow" points="0,-11 -7,6 7,6" fill="#FFFFFF"/>
+  </defs>
+  <use href="#arrow" transform="translate(250.000, 510.000) rotate(270.00) scale(1.4)"/>
+  <line x1="265.021" y1="476.431" x2="241.407" y2="472.146" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="273.988" y1="443.942" x2="251.518" y2="435.509" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="288.612" y1="413.575" x2="268.009" y2="401.265" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="308.423" y1="386.308" x2="290.349" y2="370.517" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="332.784" y1="363.016" x2="317.820" y2="344.252" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="360.913" y1="344.448" x2="349.540" y2="323.314" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="391.905" y1="331.201" x2="384.488" y2="308.376" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="424.764" y1="323.701" x2="421.543" y2="299.919" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <use href="#arrow" transform="translate(458.973, 310.201) rotate(362.57) scale(1.4)"/>
+  <line x1="491.834" y1="326.714" x2="497.174" y2="303.315" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="523.889" y1="337.129" x2="533.321" y2="315.060" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="553.569" y1="353.100" x2="566.790" y2="333.070" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="579.920" y1="374.115" x2="596.505" y2="356.767" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="602.095" y1="399.496" x2="621.512" y2="385.390" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="619.382" y1="428.430" x2="641.005" y2="418.017" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="631.225" y1="459.985" x2="654.360" y2="453.600" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <use href="#arrow" transform="translate(649.195, 492.072) rotate(444.86) scale(1.4)"/>
+  <line x1="637.243" y1="526.852" x2="661.147" y2="529.004" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="631.225" y1="560.015" x2="654.360" y2="566.400" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="619.382" y1="591.570" x2="641.005" y2="601.983" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="602.095" y1="620.504" x2="621.512" y2="634.610" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <use href="#arrow" transform="translate(588.213, 654.559) rotate(496.29) scale(1.4)"/>
+  <line x1="553.569" y1="666.900" x2="566.790" y2="686.930" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="523.889" y1="682.871" x2="533.321" y2="704.940" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="491.834" y1="693.286" x2="497.174" y2="716.685" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="458.435" y1="697.811" x2="459.511" y2="721.787" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="424.764" y1="696.299" x2="421.543" y2="720.081" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="391.905" y1="688.799" x2="384.488" y2="711.624" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="360.913" y1="675.552" x2="349.540" y2="696.686" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="332.784" y1="656.984" x2="317.820" y2="675.748" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <use href="#arrow" transform="translate(299.386, 641.588) rotate(588.86) scale(1.4)"/>
+  <line x1="288.612" y1="606.425" x2="268.009" y2="618.735" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="273.988" y1="576.058" x2="251.518" y2="584.491" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="265.021" y1="543.569" x2="241.407" y2="547.854" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Lifecycle Stage Drawings -->
+  <!-- Day 0: Adult Female -->
+<g transform="translate(200.000, 510.000) rotate(-90.00) scale(0.650)">
+  <path d="M -8 -20 L -22 -30 L -25 -26" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -20 L 22 -30 L 25 -26" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -10 -12 L -25 -12 L -27 -8" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 10 -12 L 25 -12 L 27 -8" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -8 -4 L -24 4 L -22 9" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -4 L 24 4 L 22 9" fill="none" stroke="#E59866" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="0" cy="15" rx="22" ry="30" fill="#FDEBD0" stroke="#782800" stroke-width="2"/>
+  <line x1="-14.161763857498666" y1="-5" x2="14.161763857498666" y2="-5" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="5" x2="17.913371790059205" y2="5" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-19.0" y1="15" x2="19.0" y2="15" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="25" x2="17.913371790059205" y2="25" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-14.161763857498666" y1="35" x2="14.161763857498666" y2="35" stroke="#5D4037" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="0" cy="-19" rx="12" ry="6" fill="#DC7633" stroke="#782800" stroke-width="2"/>
+  <ellipse cx="0" cy="-32.5" rx="18" ry="9.5" fill="#D35400" stroke="#782800" stroke-width="2"/>
+  <path d="M -14 -33 L -22 -41 L -20 -44" fill="none" stroke="#782800" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 14 -33 L 22 -41 L 20 -44" fill="none" stroke="#782800" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="-14.5" cy="-32.5" r="1.5" fill="#000000"/>
+  <circle cx="14.5" cy="-32.5" r="1.5" fill="#000000"/>
+</g>
+<g transform="translate(200.951, 533.211) rotate(-105.00) scale(0.340)">
+  <line x1="-40" y1="40" x2="40" y2="-40" stroke="#8B6E50" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="-4" cy="0" rx="6" ry="6" fill="#BDC3C7" opacity="0.7"/>
+  <ellipse cx="0" cy="0" rx="11" ry="22" fill="#FDFEFE" stroke="#BDC3C7" stroke-width="2"/>
+</g>
+  <!-- Egg on wool -->
+<g transform="translate(273.223, 333.223) rotate(-45.00) scale(1.080)">
+  <line x1="-40" y1="40" x2="40" y2="-40" stroke="#8B6E50" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="-4" cy="0" rx="6" ry="6" fill="#BDC3C7" opacity="0.7"/>
+  <ellipse cx="0" cy="0" rx="11" ry="22" fill="#FDFEFE" stroke="#BDC3C7" stroke-width="2"/>
+</g>
+  <!-- Day 9: Hatching Egg -->
+<g transform="translate(461.341, 260.257) rotate(2.60) scale(1.080)">
+  <line x1="-40" y1="40" x2="40" y2="-40" stroke="#8B6E50" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="-4" cy="0" rx="6" ry="6" fill="#BDC3C7" opacity="0.7"/>
+  <path d="M -11 -5 A 11 22 0 1 0 11 -5 Z" fill="#FDFEFE" stroke="#BDC3C7" stroke-width="2"/>
+  <g transform="translate(-12, -14) rotate(-35)">
+    <ellipse cx="0" cy="0" rx="11" ry="5" fill="#FDFEFE" stroke="#BDC3C7" stroke-width="2"/>
+  </g>
+  <circle cx="0" cy="-8" r="5" fill="#F9E79F" stroke="#B48C46" stroke-width="1"/>
+  <line x1="-3" y1="-12" x2="-7" y2="-18" stroke="#B48C46" stroke-width="1.5"/>
+  <line x1="3" y1="-12" x2="7" y2="-18" stroke="#B48C46" stroke-width="1.5"/>
+</g>
+  <!-- Day 17: Nymph 1 -->
+<g transform="translate(699.010, 487.776) rotate(84.90) scale(0.440)">
+  <path d="M -8 -20 L -22 -30 L -25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -20 L 22 -30 L 25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -10 -12 L -25 -12 L -27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 10 -12 L 25 -12 L 27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -8 -4 L -24 4 L -22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -4 L 24 4 L 22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="0" cy="15" rx="22" ry="30" fill="#FDFEFE" stroke="#C8C8C8" stroke-width="2"/>
+  <line x1="-14.161763857498666" y1="-5" x2="14.161763857498666" y2="-5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="5" x2="17.913371790059205" y2="5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-19.0" y1="15" x2="19.0" y2="15" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="25" x2="17.913371790059205" y2="25" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-14.161763857498666" y1="35" x2="14.161763857498666" y2="35" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="0" cy="-19" rx="12" ry="6" fill="#FDF2E9" stroke="#B48C46" stroke-width="2"/>
+  <ellipse cx="0" cy="-32.5" rx="18" ry="9.5" fill="#F9E79F" stroke="#B48C46" stroke-width="2"/>
+  <path d="M -14 -33 L -22 -41 L -20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 14 -33 L 22 -41 L 20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="-14.5" cy="-32.5" r="1.5" fill="#000000"/>
+  <circle cx="14.5" cy="-32.5" r="1.5" fill="#000000"/>
+</g>
+  <!-- Day 22: Nymph 2 -->
+<g transform="translate(622.721, 690.742) rotate(-223.70) scale(0.520)">
+  <path d="M -8 -20 L -22 -30 L -25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -20 L 22 -30 L 25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -10 -12 L -25 -12 L -27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 10 -12 L 25 -12 L 27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -8 -4 L -24 4 L -22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -4 L 24 4 L 22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="0" cy="15" rx="22" ry="30" fill="#FDFEFE" stroke="#C8C8C8" stroke-width="2"/>
+  <line x1="-14.161763857498666" y1="-5" x2="14.161763857498666" y2="-5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="5" x2="17.913371790059205" y2="5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-19.0" y1="15" x2="19.0" y2="15" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="25" x2="17.913371790059205" y2="25" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-14.161763857498666" y1="35" x2="14.161763857498666" y2="35" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="0" cy="-19" rx="12" ry="6" fill="#FDF2E9" stroke="#B48C46" stroke-width="2"/>
+  <ellipse cx="0" cy="-32.5" rx="18" ry="9.5" fill="#F9E79F" stroke="#B48C46" stroke-width="2"/>
+  <path d="M -14 -33 L -22 -41 L -20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 14 -33 L 22 -41 L 20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="-14.5" cy="-32.5" r="1.5" fill="#000000"/>
+  <circle cx="14.5" cy="-32.5" r="1.5" fill="#000000"/>
+</g>
+  <!-- Day 31: Nymph 3 / Young Adult -->
+<g transform="translate(261.609, 674.344) rotate(-131.10) scale(0.600)">
+  <path d="M -8 -20 L -22 -30 L -25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -20 L 22 -30 L 25 -26" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -10 -12 L -25 -12 L -27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 10 -12 L 25 -12 L 27 -8" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M -8 -4 L -24 4 L -22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 8 -4 L 24 4 L 22 9" fill="none" stroke="#FAD7A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="0" cy="15" rx="22" ry="30" fill="#FDFEFE" stroke="#C8C8C8" stroke-width="2"/>
+  <line x1="-14.161763857498666" y1="-5" x2="14.161763857498666" y2="-5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="5" x2="17.913371790059205" y2="5" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-19.0" y1="15" x2="19.0" y2="15" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-17.913371790059205" y1="25" x2="17.913371790059205" y2="25" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="-14.161763857498666" y1="35" x2="14.161763857498666" y2="35" stroke="#F5CBA7" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="0" cy="-19" rx="12" ry="6" fill="#FDF2E9" stroke="#B48C46" stroke-width="2"/>
+  <ellipse cx="0" cy="-32.5" rx="18" ry="9.5" fill="#F9E79F" stroke="#B48C46" stroke-width="2"/>
+  <path d="M -14 -33 L -22 -41 L -20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 14 -33 L 22 -41 L 20 -44" fill="none" stroke="#B48C46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="-14.5" cy="-32.5" r="1.5" fill="#000000"/>
+  <circle cx="14.5" cy="-32.5" r="1.5" fill="#000000"/>
+</g>
+
+  <!-- Styled Labels and Captions (Tightly Aligned) -->
+<text x="450" y="86.39999999999999" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="28" fill="#2C3E50" font-weight="bold" font-style="normal">Lifecycle of the sheep body louse</tspan>
+  <tspan x="450" dy="26.0" font-size="20" fill="#7F8C8D" font-weight="normal" font-style="italic">Bovicola ovis</tspan>
+</text>
+<text x="180" y="410.20000000000005" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Adult female lays</tspan>
+  <tspan x="180" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">1 or 2 eggs</tspan>
+  <tspan x="180" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">every 3 days</tspan>
+</text>
+<text x="200" y="256.90000000000003" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Egg attached</tspan>
+  <tspan x="200" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">to wool fiber</tspan>
+</text>
+<text x="450" y="188.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Egg hatches</tspan>
+</text>
+<text x="700" y="423.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">First molt</tspan>
+</text>
+<text x="700" y="713.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Second molt</tspan>
+</text>
+<text x="200" y="701.9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Third molt:</tspan>
+  <tspan x="200" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Young adult emerges</tspan>
+</text>
+<text x="700" y="602.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7F8C8D" font-weight="normal" font-style="normal">Nymph molts</tspan>
+  <tspan x="700" dy="23.400000000000002" font-size="18" fill="#7F8C8D" font-weight="normal" font-style="normal">three times</tspan>
+  <tspan x="700" dy="23.400000000000002" font-size="18" fill="#7F8C8D" font-weight="normal" font-style="normal">as it grows</tspan>
+</text>
+<text x="315" y="518.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7E3517" font-weight="bold" font-style="normal">Day 35</tspan>
+</text>
+<text x="450" y="353.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7E3517" font-weight="bold" font-style="normal">Day 9</tspan>
+</text>
+<text x="585" y="518.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7E3517" font-weight="bold" font-style="normal">Day 17</tspan>
+</text>
+<text x="545" y="623.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7E3517" font-weight="bold" font-style="normal">Day 22</tspan>
+</text>
+<text x="355" y="623.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#7E3517" font-weight="bold" font-style="normal">Day 31</tspan>
+</text>
+<text x="450" y="451.90000000000003" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">Females live an</tspan>
+  <tspan x="450" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">average of 4 weeks</tspan>
+</text>
+<text x="450" y="542.1999999999999" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <tspan dy="0" font-size="24" fill="#7E3517" font-weight="bold" font-style="normal">35 days</tspan>
+  <tspan x="450" dy="23.400000000000002" font-size="18" fill="#2C3E50" font-weight="normal" font-style="normal">to maturity</tspan>
+</text>
+</svg>

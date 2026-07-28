@@ -10,17 +10,32 @@ def mw_session() -> requests.Session:
     return session
 
 
-def mw_get(params: dict, session: requests.Session) -> dict:
+def mw_get(params: dict, session: requests.Session, delay: float = 0.1) -> dict:
     params = {**params, "format": "json"}
     backoff_seconds = 1.0
-    for _attempt in range(6):
+    for attempt in range(10):
+        if delay > 0:
+            time.sleep(delay)
         response = session.get(MEDIAWIKI_API, params=params, timeout=30)
         if response.status_code == 200:
             payload = response.json()
             if "error" in payload:
                 raise RuntimeError(payload["error"])
             return payload
-        time.sleep(backoff_seconds)
-        backoff_seconds = min(backoff_seconds * 2, 30.0)
+
+        if response.status_code in (429, 500, 502, 503, 504):
+            retry_after = response.headers.get("Retry-After")
+            if retry_after:
+                try:
+                    sleep_time = float(retry_after)
+                except ValueError:
+                    sleep_time = backoff_seconds
+            else:
+                sleep_time = backoff_seconds
+            time.sleep(sleep_time)
+            backoff_seconds = min(backoff_seconds * 2, 60.0)
+        else:
+            response.raise_for_status()
+
     response.raise_for_status()
     raise RuntimeError("Unreachable")

@@ -44,12 +44,13 @@ def crawl_category(root_category: str, max_depth: int, exclude: set[str] | None,
             continue
         visited_categories.add(category_title)
 
-        for item in fetch_category_members(category_title, "page", session):
-            articles[item["pageid"]] = (item["title"], category_title.removeprefix("Category:"))
-
-        if depth < max_depth:
-            for subcat in fetch_category_members(category_title, "subcat", session):
-                sub_title = subcat["title"]
+        members = fetch_category_members(category_title, "page|subcat", session)
+        for item in members:
+            item_type = item.get("type") or ("subcat" if item.get("ns") == 14 else "page")
+            if item_type == "page":
+                articles[item["pageid"]] = (item["title"], category_title.removeprefix("Category:"))
+            elif item_type == "subcat" and depth < max_depth:
+                sub_title = item["title"]
                 if sub_title not in visited_categories and sub_title not in exclude:
                     queue.append((sub_title, depth + 1))
 
